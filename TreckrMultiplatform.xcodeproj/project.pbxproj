@@ -19,6 +19,8 @@
 		3D2A1EA9279706A5002FDC0C /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A1EA5279706A5002FDC0C /* locations.json */; };
 		3D2A1EAB27970810002FDC0C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1EAA27970810002FDC0C /* Location.swift */; };
 		3D2A1EAC27970810002FDC0C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1EAA27970810002FDC0C /* Location.swift */; };
+		3D2A1EB127970AC1002FDC0C /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */; };
+		3D2A1EB227970AC1002FDC0C /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		3D2A1EA4279706A4002FDC0C /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		3D2A1EA5279706A5002FDC0C /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		3D2A1EAA27970810002FDC0C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				3D2A1E8527970519002FDC0C /* ContentView.swift */,
+				3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +215,7 @@
 				3D2A1E9627970520002FDC0C /* ContentView.swift in Sources */,
 				3D2A1EAB27970810002FDC0C /* Location.swift in Sources */,
 				3D2A1E9427970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */,
+				3D2A1EB127970AC1002FDC0C /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +226,7 @@
 				3D2A1E9727970520002FDC0C /* ContentView.swift in Sources */,
 				3D2A1EAC27970810002FDC0C /* Location.swift in Sources */,
 				3D2A1E9527970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */,
+				3D2A1EB227970AC1002FDC0C /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,7 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

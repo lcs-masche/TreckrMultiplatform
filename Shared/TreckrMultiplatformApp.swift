@@ -11,7 +11,8 @@ import SwiftUI
 struct TreckrMultiplatformApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationDetail(location: Location.example)
         }
     }
 }
+
