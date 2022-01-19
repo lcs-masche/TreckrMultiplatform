@@ -30,6 +30,28 @@ struct LocationDetail: View {
                 
                 Spacer()
             }
+            .padding(.horizontal)
+            
+            Text(location.description)
+                .padding(.horizontal)
+            
+            
+            HStack {
+                Text("Did you know?")
+                    .font(.title3)
+                    .bold()
+                    .padding(.vertical)
+                
+                Spacer()
+            }
+            .padding(.horizontal)
+            
+            HStack {
+                Text(location.more)
+                    .padding(.horizontal)
+                
+                Spacer()
+            }
             
         }
         .navigationTitle(location.name)
