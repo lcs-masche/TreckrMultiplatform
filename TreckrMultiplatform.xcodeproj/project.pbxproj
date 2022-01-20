@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0B78882799161F0061F14C /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B78872799161F0061F14C /* LocationsList.swift */; };
+		3D0B78892799161F0061F14C /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B78872799161F0061F14C /* LocationsList.swift */; };
+		3D0B788B2799C6900061F14C /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B788A2799C6900061F14C /* WorldMap.swift */; };
+		3D0B788C2799C6900061F14C /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B788A2799C6900061F14C /* WorldMap.swift */; };
+		3D0B788E2799C6C40061F14C /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B788D2799C6C40061F14C /* TipsList.swift */; };
+		3D0B788F2799C6C40061F14C /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B788D2799C6C40061F14C /* TipsList.swift */; };
 		3D2A1E9427970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1E8427970518002FDC0C /* TreckrMultiplatformApp.swift */; };
 		3D2A1E9527970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1E8427970518002FDC0C /* TreckrMultiplatformApp.swift */; };
 		3D2A1E9627970520002FDC0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1E8527970519002FDC0C /* ContentView.swift */; };
@@ -26,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0B78872799161F0061F14C /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		3D0B788A2799C6900061F14C /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
+		3D0B788D2799C6C40061F14C /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
 		3D2A1E8427970518002FDC0C /* TreckrMultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreckrMultiplatformApp.swift; sourceTree = "<group>"; };
 		3D2A1E8527970519002FDC0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D2A1E8627970520002FDC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +108,9 @@
 			children = (
 				3D2A1E8527970519002FDC0C /* ContentView.swift */,
 				3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */,
+				3D0B78872799161F0061F14C /* LocationsList.swift */,
+				3D0B788A2799C6900061F14C /* WorldMap.swift */,
+				3D0B788D2799C6C40061F14C /* TipsList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,9 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0B78882799161F0061F14C /* LocationsList.swift in Sources */,
+				3D0B788B2799C6900061F14C /* WorldMap.swift in Sources */,
 				3D58808D279867800071CD2F /* LocationStore.swift in Sources */,
 				3D2A1E9627970520002FDC0C /* ContentView.swift in Sources */,
 				3D2A1EAB27970810002FDC0C /* Location.swift in Sources */,
+				3D0B788E2799C6C40061F14C /* TipsList.swift in Sources */,
 				3D2A1E9427970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */,
 				3D2A1EB127970AC1002FDC0C /* LocationDetail.swift in Sources */,
 			);
@@ -228,9 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0B78892799161F0061F14C /* LocationsList.swift in Sources */,
+				3D0B788C2799C6900061F14C /* WorldMap.swift in Sources */,
 				3D58808E279867800071CD2F /* LocationStore.swift in Sources */,
 				3D2A1E9727970520002FDC0C /* ContentView.swift in Sources */,
 				3D2A1EAC27970810002FDC0C /* Location.swift in Sources */,
+				3D0B788F2799C6C40061F14C /* TipsList.swift in Sources */,
 				3D2A1E9527970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */,
 				3D2A1EB227970AC1002FDC0C /* LocationDetail.swift in Sources */,
 			);

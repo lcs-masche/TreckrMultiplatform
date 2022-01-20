@@ -16,7 +16,7 @@ struct LocationDetail: View {
     var body: some View {
         ScrollView {
             
-            Image(location.HeroPicture)
+            Image(location.heroPicture)
                 .resizable()
                 .scaledToFit()
             

@@ -13,7 +13,7 @@ class LocationStore: ObservableObject {
     
     init() {
         //Get a pointer to the file
-        let url = Bundle.main.url(forResource: "location", withExtension: "json")!
+        let url = Bundle.main.url(forResource: "locations", withExtension: "json")!
         
         //Load the contents of the JSON file
         let data = try! Data(contentsOf: url)
@@ -27,3 +27,5 @@ class LocationStore: ObservableObject {
         })
     }
 }
+
+var testStore = LocationStore()
