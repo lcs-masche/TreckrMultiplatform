@@ -27,7 +27,7 @@ struct TreckrMultiplatformApp: App {
                 }
                 
                 NavigationView {
-                    WorldMap()
+                    WorldMap(store: store)
                 }
                 .tabItem {
                     Image(systemName: "map")
