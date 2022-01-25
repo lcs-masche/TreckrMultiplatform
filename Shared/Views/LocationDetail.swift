@@ -46,17 +46,42 @@ struct LocationDetail: View {
             }
             .padding(.horizontal)
             
-            HStack {
+            
+            Text(location.more)
+                .padding(.horizontal)
+            
+            if !location.advisory.isEmpty {
+                //show something when the advisory is not emty (! adds the not to that)
+                
                 Text(location.more)
                     .padding(.horizontal)
                 
-                Spacer()
+                HStack {
+                    
+                    
+                    Text("Advisory")
+                        .font(.title3)
+                        .bold()
+                        .padding(.vertical)
+                    
+                    Spacer()
+                }
+                .padding(.horizontal)
+                
+                Text(location.advisory)
+                    .padding([.horizontal,.bottom])
+            } else {
+                
+                Text(location.more)
+                    .padding(.horizontal)
+                
             }
             
         }
         .navigationTitle(location.name)
     }
 }
+
 
 struct LocationDetail_Previews: PreviewProvider {
     static var previews: some View {
