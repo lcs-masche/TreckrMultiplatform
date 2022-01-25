@@ -8,9 +8,36 @@
 import SwiftUI
 
 struct TipsList: View {
+    
+    let tips: [Tip]
+    
     var body: some View {
-        Text("Hello, TipsList view")
+        
+        List(tips, id: \.text)  { tip in
+            
+            //if there are children in this particular tip...
+            if tip.children != nil {
+                Label(tip.text, systemImage: "quote.bubble")
+            } else {
+                
+                Text(tip.text)
+                
+            }
+            
+        }
+        
     }
+    
+    init() {
+        
+        let url = Bundle.main.url(forResource: "tips", withExtension: "json")!
+        
+        let data = try! Data(contentsOf: url)
+        
+        tips = try! JSONDecoder().decode([Tip].self, from: data)
+        
+    }
+    
 }
 
 struct TipsList_Previews: PreviewProvider {

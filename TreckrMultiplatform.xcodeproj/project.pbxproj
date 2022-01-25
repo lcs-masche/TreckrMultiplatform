@@ -29,6 +29,8 @@
 		3D2A1EB227970AC1002FDC0C /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */; };
 		3D58808D279867800071CD2F /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58808C279867800071CD2F /* LocationStore.swift */; };
 		3D58808E279867800071CD2F /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58808C279867800071CD2F /* LocationStore.swift */; };
+		3DAB796D279F81AC00C914A8 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB796C279F81AC00C914A8 /* Tip.swift */; };
+		3DAB796E279F81AC00C914A8 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB796C279F81AC00C914A8 /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,7 @@
 		3D2A1EAA27970810002FDC0C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3D2A1EB027970AC1002FDC0C /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		3D58808C279867800071CD2F /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
+		3DAB796C279F81AC00C914A8 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 				3D2A1EA4279706A4002FDC0C /* tips.json */,
 				3D2A1EAA27970810002FDC0C /* Location.swift */,
 				3D58808C279867800071CD2F /* LocationStore.swift */,
+				3DAB796C279F81AC00C914A8 /* Tip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +238,7 @@
 				3D2A1E9627970520002FDC0C /* ContentView.swift in Sources */,
 				3D2A1EAB27970810002FDC0C /* Location.swift in Sources */,
 				3D0B788E2799C6C40061F14C /* TipsList.swift in Sources */,
+				3DAB796D279F81AC00C914A8 /* Tip.swift in Sources */,
 				3D2A1E9427970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */,
 				3D2A1EB127970AC1002FDC0C /* LocationDetail.swift in Sources */,
 			);
@@ -249,6 +254,7 @@
 				3D2A1E9727970520002FDC0C /* ContentView.swift in Sources */,
 				3D2A1EAC27970810002FDC0C /* Location.swift in Sources */,
 				3D0B788F2799C6C40061F14C /* TipsList.swift in Sources */,
+				3DAB796E279F81AC00C914A8 /* Tip.swift in Sources */,
 				3D2A1E9527970520002FDC0C /* TreckrMultiplatformApp.swift in Sources */,
 				3D2A1EB227970AC1002FDC0C /* LocationDetail.swift in Sources */,
 			);
